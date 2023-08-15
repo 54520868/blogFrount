@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { count } from 'console';
+
 defineProps<{ msg: string }>()
 
 const visits = useVisits()
@@ -8,7 +10,7 @@ const { t } = useI18n()
 
 <template>
 	<div class="mt-10 flex flex-col items-center space-y-7">
-		<h1 class="text-4xl">{{ msg }}</h1>
+		<!-- <h1 class="text-4xl">{{ msg }}</h1> -->
 
 		<Counter />
 		<p>
