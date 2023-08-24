@@ -3,12 +3,12 @@ import { defineStore } from 'pinia'
 export default defineStore('counter', {
 	state() {
 		return {
-			count: 0,
+			
 		}
 	},
 	actions: {
-		inc() {
-			this.count++
+		skip() {
+			alert("登录成功");
 		},
 	},
 	persist: true,
