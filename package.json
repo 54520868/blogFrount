@@ -7,7 +7,6 @@
     "dev": "vite",
     "test": "vitest",
     "build": "vite build",
-    "prepare": "husky install",
     "dev:host": "vite --host",
     "dev:open": "vite --open",
     "preview": "vite preview",
@@ -93,9 +92,6 @@
     "vue-request": "2.0.3",
     "vue-router": "^4.2.4",
     "vue-toastification": "2.0.0-rc.5"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --cache --fix"
   },
   "overrides": {
     "vue-demi": "npm:vue-demi@latest",
