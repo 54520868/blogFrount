@@ -14,6 +14,7 @@ const typedRef = useTyped([' is not found!'])
 					dark="text-black"
 				>
 					Go Home
+					<n-input ></n-input>
 				</button>
 			</RouterLink>
 		</div>

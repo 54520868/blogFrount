@@ -11,6 +11,7 @@
 				<img src="/vue.svg" class="logo vue" alt="Vue logo" />
 			</a>
 		</div>
+		<n-input ></n-input>
 		<HelloWorld msg="Tov + Vite + Vue" />
 	</div>
 </template>

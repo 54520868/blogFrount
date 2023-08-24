@@ -115,5 +115,8 @@
   },
   "repository": {
     "url": "https://github.com/dishait/tov-template"
+  },
+  "dependencies": {
+    "naive-ui": "^2.34.4"
   }
 }
